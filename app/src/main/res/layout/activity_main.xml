@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1"
+            android:text="GPA CALCULATOR"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true" />
+
+                <!--Segment 1-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GRADE 1: "
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="80dp"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textSize="15dp"
+            android:id="@+id/input1"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"/>
+
+                <!--Segment 2-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GRADE 2: "
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="180dp"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textSize="15dp"
+            android:id="@+id/input2"
+            android:layout_marginTop="200dp"
+            android:layout_centerHorizontal="true"/>
+
+                <!--Segment 3-->
+
+        <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GRADE 3: "
+        android:textSize="15dp"
+            android:textStyle="bold"
+        android:layout_marginTop="280dp"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textSize="15dp"
+            android:id="@+id/input3"
+            android:layout_marginTop="300dp"
+            android:layout_centerHorizontal="true"/>
+
+                <!--segment 4-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GRADE 4: "
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="380dp"/>
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textSize="15dp"
+            android:id="@+id/input4"
+            android:layout_marginTop="400dp"
+            android:layout_centerHorizontal="true"/>
+
+                <!--Segment 5-->
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GRADE 5: "
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="480dp"/>
+
+
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textSize="15dp"
+            android:id="@+id/input5"
+            android:layout_marginTop="500dp"
+            android:layout_centerHorizontal="true"/>
+
+                <!--End of inputs-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPA:"
+            android:textSize="20dp"
+            android:layout_marginTop="580dp"/>
+
+
+        <TextView
+            android:id="@+id/txt"
+            android:layout_width="match_parent"
+            android:layout_height="405dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="580dp"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="130dp"
+
+        android:background="#f0ff"
+        android:text="Compute GPA" />
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

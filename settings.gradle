@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "GPA_[21655257]_Calculator"
